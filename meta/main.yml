@@ -10,5 +10,5 @@ galaxy_info:
     - 7
   categories:
   - packaging
-dependencies:
-  - { role: 'geerlingguy.repo-epel', when: (ansible_distribution == "RedHat") or (ansible_distribution == "CentOS") }
+#dependencies:
+#  - { role: 'geerlingguy.repo-epel', when: (ansible_distribution == "RedHat") or (ansible_distribution == "CentOS") }
